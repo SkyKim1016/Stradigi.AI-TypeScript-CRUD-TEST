@@ -5,8 +5,9 @@
 
 # Installation
 ```bash
-npm install --save-dev
-npm run start
+1. npm install --save-dev
+
+2. npm run start
 ```
 
 
