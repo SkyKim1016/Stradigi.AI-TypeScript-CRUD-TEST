@@ -15,17 +15,17 @@
 
 ├── ( connectionDB )
 
-│  ── connectionMongoDB.ts 
+│────── connectionMongoDB.ts 
 
-│  ── connectionPostgres.ts
+│────── connectionPostgres.ts
 
-│  ── InitialScript_Postgres.sql
+│────── InitialScript_Postgres.sql
 
 ├── ( routes ) 
 
-│   ── mongoApi.ts
+│─────── mongoApi.ts
 
-│   ── postgresApi.ts
+│────── postgresApi.ts
 
 ├── app.ts
 
