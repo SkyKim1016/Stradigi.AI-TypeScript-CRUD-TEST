@@ -43,7 +43,7 @@
 
 
 
- # (1) MongoAPI is for MongoDB. and URL is start "/mongoApi". therefore MongoAPI urls are 
+ # 1. MongoAPI is for MongoDB. and URL is start "/mongoApi". therefore MongoAPI urls are 
   
       [Read List All]    HTTP://localhost:4000/mongoAPI 
       
@@ -68,7 +68,7 @@
       
       
   
-  # (2) PostgresAPI is for PostgreSQL and URL is start "/postgresApi"
+  # 2. PostgresAPI is for PostgreSQL and URL is start "/postgresApi"
   
       
       [Read List All]    HTTP://localhost:4000/postgresApi 
