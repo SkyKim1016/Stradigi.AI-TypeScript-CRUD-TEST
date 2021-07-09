@@ -13,12 +13,12 @@
 
 # Explain
 
-[1] For switchable MongoDB and PostgresSQL, It seperated route API by two route 
-There are two route API files. 
+# [1] For switchable MongoDB and PostgresSQL, It seperated route API by two route 
+# There are two route API files. 
 
 
 
-  (1) MongoAPI is for MongoDB. and URL is start "/mongoApi". therefore MongoAPI urls are 
+ # (1) MongoAPI is for MongoDB. and URL is start "/mongoApi". therefore MongoAPI urls are 
   
       [Read List All]    HTTP://localhost:4000/mongoAPI 
       
@@ -43,7 +43,7 @@ There are two route API files.
       
       
   
-  (2) PostgresAPI is for PostgreSQL and URL is start "/postgresApi"
+  # (2) PostgresAPI is for PostgreSQL and URL is start "/postgresApi"
   
       
       [Read List All]    HTTP://localhost:4000/postgresApi 
