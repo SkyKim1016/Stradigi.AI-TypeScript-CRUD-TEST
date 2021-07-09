@@ -11,4 +11,46 @@
 ```
 
 
-#
+# Explain
+
+[1.] For switchable MongoDB and PostgresSQL, It seperated route API by two route 
+There are two route API files. 
+
+
+
+  (1) MongoAPI is for MongoDB. and URL is start "/mongoApi". therefore MongoAPI urls are 
+  
+      [Read List All]    HTTP://localhost:4000/mongoAPI 
+      
+      [Read List One]    HTTP://localhost:4000/mongoAPI/List
+      
+      [Create List One]  HTTP://localhost:4000/mongoAPI/createList
+      
+      [Update List One]  HTTP://localhost:4000/mongoAPI/updateList
+      
+      [Delete List One] HTTP://localhost:4000/mongoAPI/deleteList
+      
+      
+      [Read Items All]    HTTP://localhost:4000/mongoAPI 
+      
+      [Read Item One]    HTTP://localhost:4000/mongoAPI/List
+      
+      [Create Item One]  HTTP://localhost:4000/mongoAPI/createList
+      
+      [Update Item One]  HTTP://localhost:4000/mongoAPI/updateList
+      
+      [Delete Item One] HTTP://localhost:4000/mongoAPI/deleteList
+      
+      
+  
+  (2) PostgresAPI is for PostgreSQL and URL is start "/postgresApi"
+  
+      [Read List All]    HTTP://localhost:4000/postgresApi 
+      
+      [Read List All]    HTTP://localhost:4000/postgresApi/List
+      
+      [Read List All]    HTTP://localhost:4000/postgresApi 
+      
+      [Read List All]    HTTP://localhost:4000/postgresApi 
+      
+      [Read List All]    HTTP://localhost:4000/postgresApi 
