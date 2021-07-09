@@ -19,7 +19,7 @@
 
 │────── connectionPostgres.ts
 
-│────── InitialScript_Postgres.sql.  (Before start PostgreSQL API test, You must execute the commands in the script sequentially.)  
+│────── InitialScript_Postgres.sql.  [ Before start PostgreSQL API test, You must execute the commands in the script sequentially. ] 
 
 ├── ( routes ) 
 
