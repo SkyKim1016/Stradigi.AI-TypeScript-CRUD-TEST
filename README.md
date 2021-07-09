@@ -1,5 +1,5 @@
 # Typescript Nodejs Mongodb CRUD
-![](docs/screenshot.png)
+
 
 # Installation
 ```bash
