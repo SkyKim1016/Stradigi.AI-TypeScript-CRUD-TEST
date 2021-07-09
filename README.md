@@ -39,7 +39,7 @@
 
 # Explain
 
-#   [*] For switchable MongoDB and PostgresSQL, It seperated route API by two route.  There are two route API files. 
+#   [*] For switchable MongoDB and PostgresSQL, It seperated route API by two route files.  There are two route API files. 
 
 
 
