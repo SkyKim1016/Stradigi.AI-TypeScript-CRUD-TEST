@@ -12,7 +12,6 @@
 
 # Folder Structure
 
-[src]
 ├── connectionDB
 │   ├── connectionMongoDB.ts 
 │   └── connectionPostgres.ts
