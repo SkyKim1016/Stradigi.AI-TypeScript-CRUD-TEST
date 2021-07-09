@@ -13,7 +13,7 @@
 
 # Explain
 
-[1.] For switchable MongoDB and PostgresSQL, It seperated route API by two route 
+[1] For switchable MongoDB and PostgresSQL, It seperated route API by two route 
 There are two route API files. 
 
 
@@ -31,26 +31,38 @@ There are two route API files.
       [Delete List One] HTTP://localhost:4000/mongoAPI/deleteList
       
       
-      [Read Items All]    HTTP://localhost:4000/mongoAPI 
+      [Read Items All]    HTTP://localhost:4000/mongoAPI/ItemAll
       
-      [Read Item One]    HTTP://localhost:4000/mongoAPI/List
+      [Read Item One]    HTTP://localhost:4000/mongoAPI/Item
       
-      [Create Item One]  HTTP://localhost:4000/mongoAPI/createList
+      [Create Item One]  HTTP://localhost:4000/mongoAPI/createItem
       
-      [Update Item One]  HTTP://localhost:4000/mongoAPI/updateList
+      [Update Item One]  HTTP://localhost:4000/mongoAPI/updateItem
       
-      [Delete Item One] HTTP://localhost:4000/mongoAPI/deleteList
+      [Delete Item One] HTTP://localhost:4000/mongoAPI/deleteItem
       
       
   
   (2) PostgresAPI is for PostgreSQL and URL is start "/postgresApi"
   
-      [Read List All]    HTTP://localhost:4000/postgresApi 
-      
-      [Read List All]    HTTP://localhost:4000/postgresApi/List
       
       [Read List All]    HTTP://localhost:4000/postgresApi 
       
-      [Read List All]    HTTP://localhost:4000/postgresApi 
+      [Read List One]    HTTP://localhost:4000/postgresApi/List
       
-      [Read List All]    HTTP://localhost:4000/postgresApi 
+      [Create List One]  HTTP://localhost:4000/postgresApi/createList
+      
+      [Update List One]  HTTP://localhost:4000/postgresApi/updateList
+      
+      [Delete List One] HTTP://localhost:4000/postgresApi/deleteList
+      
+      
+      [Read Items All]    HTTP://localhost:4000/postgresApi/ItemAll
+      
+      [Read Item One]    HTTP://localhost:4000/postgresApi/Item
+      
+      [Create Item One]  HTTP://localhost:4000/postgresApi/createItem
+      
+      [Update Item One]  HTTP://localhost:4000/postgresApi/updateItem
+      
+      [Delete Item One] HTTP://localhost:4000/postgresApi/deleteItem
