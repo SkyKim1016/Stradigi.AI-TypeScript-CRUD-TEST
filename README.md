@@ -13,14 +13,14 @@
 # Folder Structure
 
 
-├── ( connectionDB )
-│
-│   ── connectionMongoDB.ts 
-│
-│   ── connectionPostgres.ts
-│
-│   ── InitialScript_Postgres.sql
-│
+── ( connectionDB )
+
+│ ── connectionMongoDB.ts 
+
+│ ── connectionPostgres.ts
+
+│ ── InitialScript_Postgres.sql
+
 ├── ( routes ) 
 │
 │   ├── mongoApi.ts
